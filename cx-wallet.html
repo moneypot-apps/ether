@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>MyEtherWallet</title>
-  <link rel="canonical" href="https://ether.cryptogames.tk" />
+  <link rel="canonical" href="https://ether.cryptogame.tk" />
   <meta name="description" content="Ether Wallet: Open Source JavaScript Client-Side Ether Wallet">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -1601,7 +1601,7 @@
   
   <h4>5. How can I install this extension from the repo instead of the Chrome Store? </h4>
   <ul>
-    <li>Go to <a href="https://ether.cryptogames.tk" target="_blank">the github repo</a>.</li>
+    <li>Go to <a href="https://ether.cryptogame.tk" target="_blank">the github repo</a>.</li>
     <li> Download the ZIP file using the button in the upper right.</li>
     <li> Unzip that file. </li>
     <li> Go to Google Chrome and find you settings (in the menu in the upper right).</li>
@@ -1621,7 +1621,7 @@
   <p> That said, it is <strong>very important</strong> that you back up all your information for any new wallets generated with MyEtherWallet CX externally (meaning not on your computer!). That way if anything happens to MyEtherWallet CX or your computer, you still have all the information necessary to access your Ether. See the above section for how to save your wallets externally.</p>
   <p> If for some reason MyEtherWallet CX disappears from the Chrome Store, you can find the source on Github and load it manually.</p>
   <ul>
-    <li>Go to <a href="https://ether.cryptogames.tk" target="_blank">the github repo</a>.</li>
+    <li>Go to <a href="https://ether.cryptogame.tk" target="_blank">the github repo</a>.</li>
     <li> Download the ZIP file using the button in the upper right.</li>
     <li> Unzip that file. </li>
     <li> Go to Google Chrome and find you settings (in the menu in the upper right).</li>
@@ -1731,10 +1731,10 @@
   <p> At this point, we have not had our code audited. Apparently, it costs a fair bit of money to get code audited. If you or a team you know would be willing to help us out in the auditing department, please let us know. <a href="https://www.reddit.com/r/ethereum/comments/3hh89n/could_someone_please_audit_ether_wallet/">Here is a reddit thread with another user asking for someone to audit us.</a> You can reach out to us in a variety of ways.</p>
   <p> Here are some things to alleviate any paranoia you have:</p>
   <ul>
-    <li>We've been up and running since August 2015. If you search for <a href="https://ether.cryptogames.tk" target="_blank" />"myetherwallet" on reddit</a>, you can see numerous people who use us and no complaints or reports of stolen funds.</li>
+    <li>We've been up and running since August 2015. If you search for <a href="https://ether.cryptogame.tk" target="_blank" />"myetherwallet" on reddit</a>, you can see numerous people who use us and no complaints or reports of stolen funds.</li>
     <li>We aren't going to take your money or steal your private key(s). There is no malicious code on this site. In fact the "GENERATE WALLET" and "BULK GENERATE" tabs are completely client-side. That means that all the code is executed on <strong> your computer </strong> and it is never sent to the servers or to us or anywhere else in the magical internet land.</li>
-    <li> Check the URL -- This site is being served through GitHub and you can see the source code here: <a href="https://ether.cryptogames.tk" target="_blank">https://ether.cryptogames.tk</a> to the domains: <a href="http://kvhnuke.github.io/etherwallet/" target="_blank">http://kvhnuke.github.io/etherwallet/</a> and <a href="https://www.myetherwallet.com" target="_blank">https://www.myetherwallet.com</a> (our new domain with SSL). You can verify it's hosted at GitHub by using <a href="http://viewdns.info/dnsrecord/?domain=myetherwallet.com" target="_blank">http://viewdns.info/dnsrecord/?domain=myetherwallet.com</a> - last two A record IPs are owned by GitHub for their custom domain hosting.</li>
-    <li> For generating wallets, you can download the <a href="https://ether.cryptogames.tk">source code</a> by using the "DOWNLOAD ZIP" button in the aforementioned link. Then, disconnect your computer from the internet and / or move that .zip file via flash drive to an air-gapped computer. Unzip the file, open the dist folder, double-click on "index.html", and you have the exact same thing happening on your air-gapped computer. You can now generate wallets on that computer without fear that we are stealing you heart and soul and first-born child. (Obviously, the "Send Transaction" tab is not going to work without the internet. Sorry!)</li>
+    <li> Check the URL -- This site is being served through GitHub and you can see the source code here: <a href="https://ether.cryptogame.tk" target="_blank">https://ether.cryptogame.tk</a> to the domains: <a href="http://kvhnuke.github.io/etherwallet/" target="_blank">http://kvhnuke.github.io/etherwallet/</a> and <a href="https://www.myetherwallet.com" target="_blank">https://www.myetherwallet.com</a> (our new domain with SSL). You can verify it's hosted at GitHub by using <a href="http://viewdns.info/dnsrecord/?domain=myetherwallet.com" target="_blank">http://viewdns.info/dnsrecord/?domain=myetherwallet.com</a> - last two A record IPs are owned by GitHub for their custom domain hosting.</li>
+    <li> For generating wallets, you can download the <a href="https://ether.cryptogame.tk">source code</a> by using the "DOWNLOAD ZIP" button in the aforementioned link. Then, disconnect your computer from the internet and / or move that .zip file via flash drive to an air-gapped computer. Unzip the file, open the dist folder, double-click on "index.html", and you have the exact same thing happening on your air-gapped computer. You can now generate wallets on that computer without fear that we are stealing you heart and soul and first-born child. (Obviously, the "Send Transaction" tab is not going to work without the internet. Sorry!)</li>
     <li> Do a test run and check and see what network activity is happening. The easiest way for you (yes, YOU!) to do this (if you are using Chrome) is to right click on the page and click "inspect element". Now, go to the "Network" tab. Then, generate a wallet. Any wallet, any password&mdash;this is a test, remember. You will see there is no network activity. You may see something happening that looks like data:image/gif and data:image/png. Those are the QR codes being generated...on your computer...by your computer. No bytes were transferred.</li>
     <li> Now, to be safe, move over to the "Resources" tab. Here you can see all the different elements that make up a website. That includes things like the HTML (the base of what you see on the page), images (pretty pictures! Usually in .jpg, .gif, or .png format), the CSS (the stuff that makes the HTML look so pretty), the JS (the stuff that makes the HTML do other stuff, like making QR codes show up when you press Generate), Local Storage (one way of storing things on your local machine), Cookies (yum! Another way for sites to store data on your machine), and caches (yet another way to store stuff on your machine, usually to make things go faster). If you click through Local Storage, Cookies, and Cache, you will see nothing is being stored. Nothing is being saved. Refresh the page and you are back to square one.</li>
     <li> If you do not feel comfortable using this tool, then by all means, do not use it. We created this tool as a helpful way for people to generate wallets and make transactions without needing to dive into command line / geth / etc. Again, feel free to reach out if you have concerns and we will respond as quickly as possible. Thanks! </li>
@@ -1816,14 +1816,14 @@
 
 <footer class="container-fluid">
   <div class="container">
-    <p><a href="https://ether.cryptogames.tk"><img src="images/etherwallet-logo.png" height="70px" width="auto" alt="Ether Wallet" /></a></p>
+    <p><a href="https://ether.cryptogame.tk"><img src="images/etherwallet-logo.png" height="70px" width="auto" alt="Ether Wallet" /></a></p>
 
-    <p>An open source, javascript, client-side tool for generating Ethererum Wallets & sending transactions. Created by <a href="https://ether.cryptogames.tk" target="_blank">BitPlay</a> and <a href="https://ether.cryptogames.tk" target="_blank">thehenker</a>.</p>
+    <p>An open source, javascript, client-side tool for generating Ethererum Wallets & sending transactions. Created by <a href="https://ether.cryptogame.tk" target="_blank">BitPlay</a> and <a href="https://ether.cryptogame.tk" target="_blank">thehenker</a>.</p>
     <p class="wrap"> Donations greatly appreciated: <span class="mono">0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8</span> </p>
     <p>
     URLs:
-      <a href="https://ether.cryptogames.tk" target="_blank">ether.cryptogames.tk</a> &middot;
-      <a href="http://moneypot-apps.github.io/ether/" target="_blank">ether.cryptogames.tk</a>
+      <a href="https://ether.cryptogame.tk" target="_blank">ether.cryptogame.tk</a> &middot;
+      <a href="http://moneypot-apps.github.io/ether/" target="_blank">ether.cryptogame.tk</a>
     </p>
     <p>
       Source:
